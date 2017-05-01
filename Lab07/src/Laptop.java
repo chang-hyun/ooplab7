@@ -4,8 +4,6 @@ public class Laptop extends Product implements Networked, DataStorage {
 	double totalCapacity;
 	double usedCapacity;
 	
-	Laptop laptop = new Laptop();
-	
 	 
 	@Override
 	public double getFreeCapacity() {
