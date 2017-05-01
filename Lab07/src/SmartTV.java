@@ -1,5 +1,5 @@
 
-public class SmartTV extends Product {
+public class SmartTV extends Product implements Networked{
 
 	private int channel;
 	
@@ -11,19 +11,19 @@ public class SmartTV extends Product {
 		this.channel = channel;
 	}
 
-	boolean isConnected()
+	public boolean isConnected()
 	{
 		return true;
 	}
 	
-	double maxSpeed()
+	public double maxSpeed()
 	{
-		return channel;	
+		return 10;	
 	}
 	
 	@Override
 	public String getName() {
-		return null;
+		return "jaejin";
 	}
 
 }
