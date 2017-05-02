@@ -18,8 +18,22 @@ public class ProductTest {
 		System.out.println(p.getName());
 	}
 	
+	
 	void testDataStorage(DataStorage d)
 	{
 		d.format();
 	}
+	
+	
+	void testNetworked(Networked n)
+	{
+		n.isConnected();
+	}
+	
+	
+	void Cooker(Cooker c)
+	{
+		c.prepareFood();
+	}
+	
 }
