@@ -19,7 +19,7 @@ public class TestBox {
 	
 	void takeStringAndInt(String s,int x)
 	{
-		System.out.println("we got "+s+" and "+x);
+		System.out.println("we got "+s+" 55and "+x);
 	}
 }
 
